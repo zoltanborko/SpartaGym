@@ -1,0 +1,3 @@
+[submodule "SpartaGym"]
+	path = SpartaGym
+	url = https://github.com/zoltanborko/SpartaGym.git
