@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    background-position: 10px 0px, left bottom;
+    margin-bottom: 2em;
+    background-image: url(../media/bg.jpeg);
+    background-repeat: repeat
+}
+
+header{
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 0;
+    position: relative;
+    margin-top: 10px;
+    opacity: 0.8;
+    color: aliceblue;
+}
+
+footer{
+    color: white;
+    font-size: small;
+    padding-left: 2em;
+}
+
+main{
+    background-color: aliceblue;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+main a:visited{
+    color: rgb(111, 17, 200);
+}
+
+main a{
+    color: blue;
+}
+
+h1{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.navbar-brand{
+    padding-right: 2em;
+}
+
+
+
+.text{
+    text-align: left;
+    font-size: 1.5em;
+
+}
+
+figure .text{
+    text-align: center;
+}
+
+.h2{
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+.video{
+    padding-left: 1em;
+    margin-top: 2em;
+}
+
+
+.carouseldiv{
+    padding-bottom: 2em;
+}
+
+.carousel-item img{
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(100%);
+}
+
+
+
+
+header nav ul li{
+    display: inline;
+    white-space: nowrap;
+    padding-right: 2em;
+}
+
+header nav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+aside{
+    background-color: aqua;
+    border-radius: 10px;
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    font-size: 120%;
+    margin-left: 0;
+    padding: 1%;
+}
+
+
+
+video{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.maps{
+    width: 80%;
+    margin: 3em;
+    border: solid 2px black;
+}
+
+
+.csatlakozzfig{
+    margin: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+
+figure a img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+figcaption{
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:darkgray;
+    opacity: 0.9;
+}
+
+table{
+    margin-top: 3em;
+    text-align: center;
+}
+
+table tr td{
+    width: 33%;
+    transition: transform 0.4s ease;
+}
+
+table tr td:hover{
+    z-index: 1;
+    border: solid 1px black;
+    transform: scale(1.5);
+}
+
+table details{
+    font-size: small;
+}
+
+form{
+    padding: 2em;
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+textarea{
+    max-width: 100%;
+    resize: vertical;
+}
+
+.container-fluid{
+    padding: 2em;
+}
+
+article h2{
+    margin-bottom: 1.5em;
+}
+
+article p{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.rejtett {position:absolute; left:-9999px;}
+nav#tartalomraugras a {position:absolute; left:-9999px}
+nav#tartalomraugras a:focus {position:static; background-color: azure;}
+
+a#nagybetu{display: block;}
+a#normalbetu{display: none;}
+
+nav#gyengenlato{
+    width:max-content;
+    padding: 0.5em;
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:deepskyblue;
+    text-align: center;
+}
+
+nav#gyengenlato a{
+    color: black;
+}
+
+.leiras{
+    padding: 3em;
+}
+
+@media print
+{
+    header{
+    display: none;
+    }
+    a,
+	a:visited {
+		text-decoration: underline;
+	}
+	a.printlink[href]:after {
+		content: ' (' attr(href) ')';
+	}
+
+    #gyengenlato{
+        display: none;
+    }
+
+    .carousel-item { 
+        display: block !important;
+        width: 30% !important;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        display: none !important;
+    }
+
+    .carousel-indicators{
+        display: none !important;
+    }
+
+    img{
+        width: 90%;
+    }
+
+    figure.video{
+        display: none;
+    }
+}

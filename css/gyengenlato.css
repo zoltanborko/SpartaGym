@@ -1,0 +1,25 @@
+@import url(alapstilus.css);
+
+a#nagybetu{display: none;}
+a#normalbetu{display: block;}
+
+body, h1, h2{
+    font-size: 2em !important;
+}
+
+
+
+table{
+    width: fit-content;
+}
+table details{
+    font-size: 1em;
+}
+
+nav#gyengenlato{
+    width:fit-content;
+}
+
+figure{
+    width: fit-content;
+}

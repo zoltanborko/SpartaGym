@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Sparta Gym</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/alapstilus.css" title="normal">
+  <link rel="stylesheet" type="text/css" href="css/gyengenlato.css" title="nagybetus">
+  <script src="js/stilus.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+      <nav id="tartalomraugras">
+        <h2 class="rejtett">Ugrás az oldalon belül</h2>
+        <a href="#tartalom">Ugrás a tartalomra</a>
+      </nav>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="media/sisak.jpeg" width="60" height="60" alt="spartai sisak"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"><strong>Kezdőlap</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="araink.html"><strong>Áraink</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html"><strong>Galéria</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="csatlakozz.html"><strong>Csatlakozz</strong></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+            <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+          </nav>
+    </header>
+    <main id="tartalom">
+        <h1>SPARTA GYM</h1>
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+              <section>
+                <h2 class="h2">Miért pont a <cite>Sparta Gym</cite>?</h2>
+
+                <p class="text">
+                    Budapesten, a III. kerületben, a <b><i>Bécsi úton</i></b> megújult formában, változatlan hangulattal vár a <b><i>Sparta Gym</i></b>. Várunk minden sportolni vágyó és egészséges életmódra törekvőt, a <b><i>hét minden napján</i></b> 6.00-tól 22.00-ig!
+                    Igényes berendezések, barátságos közeg és kedves kiszolgálás!
+                    Látogass el hozzánk a <a class="printlink" href="https://www.google.com/maps/place/Sparta+Gym/@47.5516813,19.0275205,17z/data=!4m6!3m5!1s0x4741d96d31ba04df:0x28c3aafc044043df!8m2!3d47.5516812!4d19.0290785!16s%2Fg%2F11c1xhdll3?entry=ttu" target="_blank"><u>Bécsi út 267. (Diego udvar)</u></a> szám alá!<br>
+                </p>
+              </section>
+                
+                <aside class="col-12 col-md-10 col-lg-8 col-xl-6">
+                    <strong>Facebook:</strong><a class="printlink" href="https://www.facebook.com/spartaobuda" target="_blank">   <u><i>Sparta Gym</i></u></a><br>
+                    <strong>Instagram:</strong><a class="printlink" href="https://www.instagram.com/spartagym.official" target="_blank">   <u><i>spartagym.official</i></u></a><br>
+                </aside>
+                <div class="row">
+                  <a href="media/map_nagy.png" target="_blank"><img class="maps" src="media/map_k.png" alt="a konditerem a térképen, rákattintva megjelenik nagyobban"></a>
+                </div>              
+                
+            </div>
+            <div class="col-12 col-md-6 video">                 
+              <figure class="video">
+                <video class="embed-responsive embed-responsive-16by9" src="media/video.mp4" poster="media/cover.png" width="600" controls></video>
+                <figcaption class="text">
+                  Ezért kezdj el te is a Sparta Gymben edzeni! <br>
+                  A videó <a href="video.html" target="_blank"><u>leírása</u></a>.
+                </figcaption>
+              </figure>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+      <p>Készítette: Borkó Zoltán 2024 ©</p>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
